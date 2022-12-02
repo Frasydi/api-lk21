@@ -2,9 +2,10 @@
   "name": "api-lk21",
   "version": "1.0.0",
   "description": "API Untuk mengambil data-data movie LK21",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
+    "start" : "node server.js",
     "server": "nodemon server.js"
   },
   "author": "devnazir",
